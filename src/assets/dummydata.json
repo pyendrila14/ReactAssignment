@@ -1,0 +1,55 @@
+
+{
+
+    "products": [
+      {
+        "id": 1,
+        "description": "Potato",
+        "price": "60",
+        "category": "Vegetables",
+        "canExpire": "No",
+        "expireDate":"",
+        "isSpecial": "No"
+      },
+      {
+      "id": 2,
+      "description": "Chicken",
+      "price": "200",
+      "category": "Meat",
+      "canExpire": "Yes",
+      "expireDate":"2023-12-29",
+      "isSpecial": "Yes"
+    },
+    {
+        "id": 3,
+        "description": "Onion",
+        "price": "80",
+        "category": "Vegetable",
+        "canExpire": "No",
+        "expireDate":"",
+        "isSpecial": "No"
+      },
+      {
+        "id": 4,
+        "description": "Mutton",
+        "price": "500",
+        "category": "Meat",
+        "canExpire": "Yes",
+        "expireDate":"2023-12-29",
+        "isSpecial": "Yes"
+      },
+      {
+        "id": 5,
+        "description": "Table",
+        "price": "2000",
+        "category": "Furniture",
+        "canExpire": "No",
+        "expireDate":"",
+        "isSpecial": "No"
+      }
+
+      
+    ]
+    
+  }
+      

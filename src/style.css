@@ -1,0 +1,184 @@
+body {
+    font-weight: bold;
+    height: 90vh;
+    background-size: 172vh;
+    background-repeat: repeat-x repeat-y;
+     
+ }
+  
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    outline: 0;
+    border: 1px solid black;
+    width: 300px;
+    height: 35px;
+    padding: 1px 0.5rem;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.search button{
+    outline: none;
+    border: none;
+    height: 35px;
+    padding: 0 0.5rem;
+}
+.container{
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap:20px;
+    box-sizing: border-box;
+}
+
+.card{
+    background-color: #dfe5e9;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 5px rgba(212,185,150,.5);
+    transition: .5s;
+    text-align: center;
+    position: relative;
+}
+.card_bg_change{
+    background-color:#87b5d0 !important;
+}
+.card:hover{
+    transform: scale(0.9);
+    background-color:#dfe5e9;
+}
+.card .bottom{
+    display: flex;
+    flex-direction: column;
+}
+.card .bottom .title{
+    font-size: 14px;
+    margin-bottom: 22px;
+}
+.card .bottom .ptag{
+    font-size: 11px;
+    margin-bottom: 32px;
+}
+.card .bottom .addbutton{
+    position: absolute;
+    bottom: 7px;
+    left: 10px;
+    right: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0.2rem;
+}
+
+
+.overlay{
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay-inner{
+    background: white;
+    width: 700px;
+    height: 68vh;
+    padding: 1.5rem;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 1.3rem;
+    margin-top: 40px;
+}
+.overlay-inner .close{
+    position: absolute;
+    top:1rem;
+    right: 1rem;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    background-color: transparent;
+}
+
+.overlay-inner .editicon{
+    position: absolute;
+    top:3rem;
+    right: 1rem;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    background-color: transparent;
+}
+.overlay-inner .inner-box{
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: center; */
+}
+.overlay-inner .inner-box img{
+    margin-right: 20px;
+    width: 150px;
+    height: 200px;
+}
+
+.amount{
+    position: absolute;
+    right: 10px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0.2rem;
+}
+
+.checkout-container{
+    margin-top: 40px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height:68vh;
+}
+.addLibraryButton{
+    position: absolute;
+    bottom: 22px;
+    width: 57vw;
+}
+
+
+.spinnermodal{
+    left: -23vw;
+    position: absolute;
+}
+
+input{
+    height: 4vh;
+    margin-bottom: 10px;
+    margin-left: 14px;
+
+
+}
+.checkbox_input{
+    height: 13px;
+}
+label{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.margin_left{
+    margin-left: 9vw;
+}
+
+.margin_top{
+    margin-top: 5vh;
+}
